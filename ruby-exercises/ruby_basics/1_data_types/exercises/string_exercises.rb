@@ -7,14 +7,14 @@ def concatenate(string)
   # use concatenation to format the result to be "Hello <string>!"
   "Hello " << string << "!"
 end
-def substrings(word)
+def substrings(index)
   # return the first 4 letters from the word using substrings
-  word[0 ,4]
+  index[0 ,4]
 end
 
-def capitalize(word)
+def capitalize(index)
   # capitalize the first letter of the word
-  word.capitalize
+  index.capitalize
 end
 
 def uppercase(string)
